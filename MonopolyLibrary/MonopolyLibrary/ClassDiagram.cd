@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MonopolyLibrary.Domain.Player">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgBAAAAAIAASAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Pawn" />
+      <Property Name="CurrentSquare" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MonopolyLibrary.Domain.Die">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAEAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Domain\Die.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonopolyLibrary.Domain.Monopoly">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAgEAAACAAAAA=</HashCode>
+      <FileName>Domain\Monopoly.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Board" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Players" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MonopolyLibrary.Domain.Square">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQAgAAAAAAAAA=</HashCode>
+      <FileName>Domain\Square\BaseSquare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonopolyLibrary.Domain.Utility">
+    <Position X="7.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Square\UtilitySquare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonopolyLibrary.Domain.Go">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAQAgAAAAAAAAA=</HashCode>
+      <FileName>Domain\Square\GoSquare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonopolyLibrary.Domain.IncomeTax">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAgAACAAAAAA=</HashCode>
+      <FileName>Domain\Square\IncomeTaxSquare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonopolyLibrary.Domain.LuxuryTax">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Domain\Square\LuxuryTaxSquare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonopolyLibrary.Domain.Property">
+    <Position X="11.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Square\Property.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonopolyLibrary.Domain.PurchasableSquare">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAQAAAgAgAAAAAAAAACAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Domain\Square\PurchasableSquare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonopolyLibrary.Domain.Railroad">
+    <Position X="9.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Square\RailroadSquare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonopolyLibrary.Domain.Board">
+    <Position X="3.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Board.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Squares" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="MonopolyLibrary.Domain.Pawn">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAQCAAEAAAAAAAAACAAAABCAACIgAAAAAAA=</HashCode>
+      <FileName>Domain\Pawn.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
